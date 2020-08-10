@@ -14,5 +14,5 @@ final_string = ""
     end
     row_index += 1
   end
-  new_array
+  final_string
 end
