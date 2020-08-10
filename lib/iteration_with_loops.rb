@@ -7,9 +7,9 @@ def join_nested_strings(src)
     element_index = 0
     while element_index < src[row_index].count do
       p src[row_index][element_index]
+      if src[row_index][element_index].kind_of?(String)
       element_index += 1
     end
-    new_array << join("")
     row_index += 1
   end
   new_array
