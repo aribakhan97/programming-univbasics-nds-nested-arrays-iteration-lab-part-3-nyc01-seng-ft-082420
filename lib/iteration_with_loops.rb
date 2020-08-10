@@ -9,7 +9,7 @@ def join_nested_strings(src)
       p src[row_index][element_index]
       element_index += 1
     end
-    new_array << join(" ")
+    new_array << join("")
     row_index += 1
   end
   new_array
